@@ -21,6 +21,12 @@ margin: 0 0 0.5em 0;
 .logo {
     text-align: center;
 }
+.selectbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px 0px 25em;
+}
 select {
     widows: 300px;
     padding: 5px 5px 0px 5px;
@@ -28,8 +34,12 @@ select {
 }
 #language {
     position: absolute;
-    top: 20px;
-    right: 20px
+    min-width: 82px;
+    height: 24px;
+    padding: 3px 10px 3px 6px;
+    color: #333333;
+    border: 1px solid #ccc;
+    background-position: 63px 50%;
 }
 
 .ID {
@@ -81,11 +91,11 @@ select {
 
 input[id="login_check"] +label {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(245, 246, 247);
     border: 2px solid #dbdbdb;
-    border-radius: 32px;
+    border-radius: 30px;
     cursor: pointer;
 }
 input[id="login_check"]:checked +label {
@@ -103,7 +113,8 @@ input[id="login_check"] {
 .AL_check {
     display: flex;
     align-items: center;
-    margin: 0 0 0 6em;
+    justify-content: center;
+    margin: 0.5em 14.5em 0 0;
 }
 hr {
     margin: 1.5em;
